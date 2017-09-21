@@ -686,7 +686,7 @@ input.labelauty+label>span.labelauty-checked-image {
 }
 
 .seller-selling__heading {
-    padding-bottom: 85px;
+    text-align: center;
     color: rgba(60, 59, 59, .7);
     font-family: helvetica_regular, sans-serif;
     font-size: 2.688em;
