@@ -1,0 +1,53 @@
+#tab2, #tab3 {
+    position: fixed;
+}
+
+.seller-tutorial_menu > a,
+.seller-tutorial_menu #tab2:target ~ a:nth-of-type(1),
+.seller-tutorial_menu #tab3:target ~ a:nth-of-type(1) {
+    padding: 20px;
+    border: 1px solid #aaa;
+    margin-left: -5px;
+}
+
+.seller-tutorial_menu > div {
+    padding: 5px;
+    border: none;
+    margin-top: 65px;
+}
+
+.seller-tutorial_link {
+    line-height: 28px;
+    background: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 400;
+    color: #777676;
+}
+
+#tab2,
+#tab3,
+.seller-tutorial_menu > div,
+.seller-tutorial_menu #tab2:target ~ div:nth-of-type(1),
+.seller-tutorial_menu #tab3:target ~ div:nth-of-type(1) {
+    display: none;
+}
+
+.seller-tutorial_menu > div:nth-of-type(1),
+.seller-tutorial_menu #tab2:target ~ div:nth-of-type(2),
+.seller-tutorial_menu #tab3:target ~ div:nth-of-type(3) {
+    display: block;
+}
+
+.seller-tutorial_menu > a:nth-of-type(1),
+.seller-tutorial_menu #tab2:target ~ a:nth-of-type(2),
+.seller-tutorial_menu #tab3:target ~ a:nth-of-type(3) {
+    border-bottom: 2px solid #fff;
+}
+
+.seller-tutorial_menu #tab1:target ~ a:first-of-type,
+.seller-tutorial_menu #tab2:target ~ a:nth-of-type(2),
+.seller-tutorial_menu #tab3:target ~ a:nth-of-type(3) {
+    box-shadow: inset 0 3px 0 0 #1cbed2;
+    border-top: 1px solid #1cbed2;
+}

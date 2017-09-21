@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="help" horiz-adv-x="1000" >
+<font-face font-family="help" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="login-1" unicode="&#xe800;" d="M452 148c-7-7-7-18 0-25 3-3 8-5 12-5s9 2 13 5l214 214c2 2 3 4 4 6 2 5 2 9 0 14-1 2-2 4-4 6l-214 214c-7 7-18 7-25 0s-7-18 0-25l184-184h-547c-10 0-18-8-18-18s8-18 18-18h547l-184-184z m459 702h-661c-10 0-18-8-18-18v-375c0-10 8-18 18-18s18 8 18 18v357h625v-928h-625v357c0 10-8 18-18 18s-18-8-18-18v-375c0-10 8-18 18-18h661c10 0 18 8 18 18v964c0 10-8 18-18 18z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
