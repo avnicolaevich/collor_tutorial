@@ -66,18 +66,141 @@
 .seller-tutorial_heading {
     margin-bottom: 65px;
     text-align: center;
-    font-size: 2.2em;
+    font-size: 30px;
 }
 
-.seller-tutorial_block1 {
+.seller-tutorial_block1,
+.seller-tutorial_block2,
+.seller-tutorial_block3 {
     float: left;
+    width: 100%;
+}
+
+.seller-tutorial_blockleft {
+    margin-left: 15%;
+    width: 35%;
+    float: left;
+}
+
+.seller-tutorial_blockright {
     width: 50%;
+    float: left;
 }
 
 .seller-tutorial_list {
     list-style-type: square;
+    padding-bottom: 60px;
+}
+
+.seller-tutorial_square {
+    color: black;
+    margin-left: 22px;
 }
 
 .seller-tutorial_item {
-    margin-left: 15px;
+    color: #817d7d;
 }
+
+.seller-tutorial_bgimage {
+    background-image: url("../images/sell_collor.jpg");
+    max-width: 100%;
+    height: 252px;
+    margin-bottom: 55px;
+}
+
+.seller-tutorial__proposal-item {
+    text-decoration: underline;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 90px;
+}
+
+.seller-tutorial__button {
+    display: block;
+    color: #fff;
+    font-size: 1.25em;
+    text-align: left;
+    cursor: pointer;
+    margin: auto;
+    text-transform: uppercase;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    margin-bottom: 15px;
+    margin-top: 55px;
+}
+
+.seller-tutorial__under-button {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.seller-tutorial__request {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.seller-tutorial_subheading {
+    font-size: 23px;
+    font-weight: 400;
+    color: #817d7d;
+    padding-bottom: 10px;
+}
+
+.seller-tutorial_text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #817d7d;
+    padding-bottom: 45px;
+}
+
+.seller-tutorial_undermenu {
+    font-size: 21px;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.seller-tutorial_item {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.seller-tutorial_number {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    background: #1cbed2;
+    line-height: 42px;
+    font-size: 52px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
+
+.seller-tutorial_sequence {
+    margin-bottom: 35px;
+}
+
+.seller-tutorial_rightheading {
+    display: inline;
+    font-size: 23px;
+    font-weight: 400;
+    color: #817d7d;
+    padding-bottom: 10px;
+}
+
+.seller-tutorial_righttext {
+    display: inline;
+    font-size: 16px;
+    font-weight: 300;
+    color: #817d7d;
+}
+
