@@ -78,12 +78,12 @@
     .ui-front {
         width: 25%!important
     }
-    .seller-tutorial_menu > a,
-    .seller-tutorial_menu #tab2:target ~ a:nth-of-type(1),
-    .seller-tutorial_menu #tab3:target ~ a:nth-of-type(1) {
+    .seller-tutorial__menu > a,
+    .seller-tutorial__menu #tab2:target ~ a:nth-of-type(1),
+    .seller-tutorial__menu #tab3:target ~ a:nth-of-type(1) {
         margin-left: 10%;
     }
-    .seller-tutorial_blockleft {
+    .seller-tutorial__blockleft {
         margin-left: 8%;
     }
 	
@@ -209,22 +209,22 @@
         left: 595px
     }
 	.body_main_section{/*top:133px;*/ position:relative;}
-    .seller-tutorial_link {
+    .seller-tutorial__link {
         font-size: 16px;
     }
-    .seller-tutorial_menu > a,
-    .seller-tutorial_menu #tab2:target ~ a:nth-of-type(1),
-    .seller-tutorial_menu #tab3:target ~ a:nth-of-type(1) {
+    .seller-tutorial__menu > a,
+    .seller-tutorial__menu #tab2:target ~ a:nth-of-type(1),
+    .seller-tutorial__menu #tab3:target ~ a:nth-of-type(1) {
         padding: 10px;
         margin-left: 10%;
     }
-    .seller-tutorial_line {
+    .seller-tutorial__line {
         display: none;
     }
-    .seller-tutorial_icon {
+    .seller-tutorial__icon {
         margin-top: -1px;
     }
-    .seller-tutorial_blockleft {
+    .seller-tutorial__blockleft {
         width: 40%;
         float: left;
     }
@@ -356,36 +356,36 @@
     .ui-front {
         width: 50%!important
     }
-    .seller-tutorial_link {
+    .seller-tutorial__link {
         display: block;
         line-height: 0;
         width: 100%;
         text-align: center;
     }
-    .seller-tutorial_link:hover,
-    .seller-tutorial_link:focus,
-    .seller-tutorial_link:active {
+    .seller-tutorial__link:hover,
+    .seller-tutorial__link:focus,
+    .seller-tutorial__link:active {
         color: #1cbed2;
     }
-    .seller-tutorial_menu > a,
-    .seller-tutorial_menu #tab2:target ~ a:nth-of-type(1),
-    .seller-tutorial_menu #tab3:target ~ a:nth-of-type(1) {
+    .seller-tutorial__menu > a,
+    .seller-tutorial__menu #tab2:target ~ a:nth-of-type(1),
+    .seller-tutorial__menu #tab3:target ~ a:nth-of-type(1) {
         margin-left: 0;
     }
-    .seller-tutorial_menu > a:nth-of-type(1),
-    .seller-tutorial_menu #tab2:target ~ a:nth-of-type(2),
-    .seller-tutorial_menu #tab3:target ~ a:nth-of-type(3) {
+    .seller-tutorial__menu > a:nth-of-type(1),
+    .seller-tutorial__menu #tab2:target ~ a:nth-of-type(2),
+    .seller-tutorial__menu #tab3:target ~ a:nth-of-type(3) {
         border: none;
     }
-    .seller-tutorial_menu #tab1:target ~ a:first-of-type,
-    .seller-tutorial_menu #tab2:target ~ a:nth-of-type(2),
-    .seller-tutorial_menu #tab3:target ~ a:nth-of-type(3) {
+    .seller-tutorial__menu #tab1:target ~ a:first-of-type,
+    .seller-tutorial__menu #tab2:target ~ a:nth-of-type(2),
+    .seller-tutorial__menu #tab3:target ~ a:nth-of-type(3) {
         box-shadow: none;
         border-top: none;
     }
-    .seller-tutorial_menu > a,
-    .seller-tutorial_menu #tab2:target ~ a:nth-of-type(1),
-    .seller-tutorial_menu #tab3:target ~ a:nth-of-type(1) {
+    .seller-tutorial__menu > a,
+    .seller-tutorial__menu #tab2:target ~ a:nth-of-type(1),
+    .seller-tutorial__menu #tab3:target ~ a:nth-of-type(1) {
         border: none;
     }
     .seller-tutorial__proposal {
@@ -414,23 +414,23 @@
     .seller-tutorial__proposal {
         width: 100%;
     }
-    .seller-tutorial_blockleft {
+    .seller-tutorial__blockleft {
         width: 100%;
     }
-    .seller-tutorial_blockright {
+    .seller-tutorial__blockright {
         width: 100%;
     }
     .seller-tutorial__proposal-item {
         padding-left: 0;
     }
-    .seller-tutorial_heading {
+    .seller-tutorial__heading {
         line-height: 30px;
     }
-    .seller-tutorial_rightheading,
-    .seller-tutorial_subheading {
+    .seller-tutorial__rightheading,
+    .seller-tutorial__subheading {
         line-height: 24px;
     }
-    .seller-tutorial_menu > div {
+    .seller-tutorial__menu > div {
         margin-top: 25px;
     }
 	.body_main_section{/*top:89px;*/ position:relative;}
