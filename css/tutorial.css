@@ -7,7 +7,12 @@
 .seller-tutorial_menu #tab3:target ~ a:nth-of-type(1) {
     padding: 20px;
     border: 1px solid #aaa;
-    margin-left: 23%;
+    margin-left: 20%;
+}
+
+.seller-tutorial_menu #tab1:target {
+    box-shadow: inset 0 3px 0 0 #1cbed2;
+    border-top: 1px solid #1cbed2;
 }
 
 .seller-tutorial_menu > a:nth-of-type(2),
@@ -30,6 +35,11 @@
     color: #777676;
 }
 
+.seller-tutorial_icon {
+    margin-top: -8px;
+    margin-right: 10px;
+}
+
 #tab2,
 #tab3,
 .seller-tutorial_menu > div,
@@ -42,6 +52,7 @@
 .seller-tutorial_menu #tab2:target ~ div:nth-of-type(2),
 .seller-tutorial_menu #tab3:target ~ div:nth-of-type(3) {
     display: block;
+    border-bottom: 1px solid #aaa;
 }
 
 .seller-tutorial_menu > a:nth-of-type(1),
@@ -83,6 +94,7 @@
 }
 
 .seller-tutorial_blockright {
+    padding-left: 60px;
     width: 50%;
     float: left;
 }
@@ -105,6 +117,7 @@
     background-image: url("../images/sell_collor.jpg");
     max-width: 100%;
     height: 252px;
+    margin-top: 20px;
     margin-bottom: 55px;
 }
 
@@ -114,6 +127,16 @@
     font-size: 16px;
     font-weight: 300;
     padding-left: 90px;
+}
+
+.seller-tutorial__proposal-item > a {
+    color: #817d7d
+}
+
+.seller-tutorial__proposal-item:hover,
+.seller-tutorial__proposal-item:focus,
+.seller-tutorial__proposal-item:active {
+    text-decoration: none;
 }
 
 .seller-tutorial__button {
@@ -173,8 +196,21 @@
     line-height: 24px;
 }
 
-.seller-tutorial_number {
-    display: inline-block;
+.seller-tutorial_sequence {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.seller-tutorial_rightheading {
+    font-size: 23px;
+    font-weight: 400;
+    color: #817d7d;
+    padding-bottom: 10px;
+}
+
+.seller-tutorial_rightheading:before{
+    position: absolute;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     width: 42px;
     height: 42px;
     background: #1cbed2;
@@ -185,22 +221,34 @@
     text-align: center;
 }
 
-.seller-tutorial_sequence {
-    margin-bottom: 35px;
+.rightheading_number1:before {
+    content: '1';
+    top: 0;
+    left: -60px;
 }
 
-.seller-tutorial_rightheading {
-    display: inline;
-    font-size: 23px;
-    font-weight: 400;
-    color: #817d7d;
-    padding-bottom: 10px;
+.rightheading_number2:before {
+     content: '2';
+     top: 0;
+     left: -60px;
+ }
+
+.rightheading_number3:before {
+    content: '3';
+    top: 0;
+    left: -60px;
+}
+
+.rightheading_number4:before {
+    content: '4';
+    top: 0;
+    left: -60px;
 }
 
 .seller-tutorial_righttext {
-    display: inline;
     font-size: 16px;
     font-weight: 300;
     color: #817d7d;
+    line-height: 25px;
 }
 
